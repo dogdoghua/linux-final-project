@@ -3,10 +3,10 @@
 ## Description
 在kernel中define 3個wait queue : project2_queue_1、project2_queue_2、project2_queue_3
 新增兩個system call
-- int enter_wait_queue(int x)，
-    process can use it to sleep in project2_queue_x, where x is equal to 1 or 2 or 3
+- int enter_wait_queue(int x)
+    - process can use it to sleep in project2_queue_x, where x is equal to 1 or 2 or 3
 - int clean_wait_queue(int x)
-    process can use it to wake up all sleeping processes in project2_queue_x where x is equal to 1 or 2 or 3.
+    - process can use it to wake up all sleeping processes in project2_queue_x where x is equal to 1 or 2 or 3.
     
 
 ## Method
