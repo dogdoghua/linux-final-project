@@ -13,6 +13,7 @@
 wait_queue 提供4個 function 可以使用，兩個是用來將 process 加到 wait_queue 的:
   - sleep_on( struct wait_queue **wq );
   - interruptible_sleep_on( struct wait_queue **wq );
+
 另外兩個則是將process從wait_queue上叫醒的。
   - wake_up( struct wait_queue **wq );
   - wake_up_interruptible( struct wait_queue **wq );
